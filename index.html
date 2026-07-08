@@ -8,93 +8,140 @@
 </head>
 
 <body>
-  <header>
+<header class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">Independent Equity Research Portfolio</p>
     <h1>Haoyang Zou</h1>
-    <p>Equity Research · Financial Modeling · AI × Finance</p>
+    <p class="subtitle">Equity Research · Financial Modeling · AI × Finance</p>
     <p>Institute of Science Tokyo | Industrial Management & Economics</p>
-  </header>
+    <div class="hero-buttons">
+      <a href="#research">View Research</a>
+      <a href="https://www.linkedin.com/in/haoyang-zou-57249a3a7" target="_blank">LinkedIn</a>
+    </div>
+  </div>
 
-  <nav>
-    <a href="#research">Research</a>
-    <a href="#models">Models</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <div class="profile-box">
+    <img src="assets/profile.jpg" alt="Haoyang Zou" />
+  </div>
+</header>
 
-  <section class="hero">
-    <h2>Independent Equity Research Portfolio</h2>
-    <p>
-      I publish company research reports, financial models, and investment analysis focused on technology,
-      AI infrastructure, cloud computing, and global equities.
-    </p>
-  </section>
+<nav>
+  <a href="#about">About</a>
+  <a href="#research">Research</a>
+  <a href="#models">Models</a>
+  <a href="#projects">Projects</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-  <section id="research">
-    <h2>Research</h2>
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am an undergraduate student at the Institute of Science Tokyo, majoring in Industrial Management
+    and Economics. My interests include equity research, financial modeling, AI infrastructure, and
+    technology-driven investment opportunities.
+  </p>
+  <p>
+    This website serves as my independent research portfolio, where I publish company research reports,
+    valuation models, and finance-related projects.
+  </p>
+</section>
 
-    <div class="card">
-      <h3>Oracle Corporation (NYSE: ORCL)</h3>
-      <p class="tag">Initiation of Coverage | BUY | Target Price: $271</p>
+<section id="research">
+  <h2>Research Coverage</h2>
+
+  <div class="research-grid">
+    <div class="research-card">
+      <div class="card-top">
+        <span class="ticker">ORCL</span>
+        <span class="rating">BUY</span>
+      </div>
+
+      <h3>Oracle Corporation</h3>
+      <p class="meta">NYSE: ORCL · Initiation of Coverage · Target Price: $271</p>
+
       <p>
-        Full independent equity research report analyzing Oracle's transformation from an enterprise database
-        company into an AI infrastructure provider through Oracle Cloud Infrastructure (OCI).
+        Independent equity research report analyzing Oracle's transformation from an enterprise database
+        company into an AI infrastructure provider through Oracle Cloud Infrastructure.
       </p>
 
-      <ul>
-        <li>AI Infrastructure Expansion</li>
-        <li>OCI Growth Acceleration</li>
-        <li>Operating Leverage & Earnings Reacceleration</li>
-        <li>DCF, P/E, EV/EBITDA, Sensitivity, and Football Field Valuation</li>
-      </ul>
+      <div class="thesis">
+        <span>AI Infrastructure Expansion</span>
+        <span>OCI Growth Acceleration</span>
+        <span>Operating Leverage</span>
+      </div>
 
       <div class="buttons">
         <a href="assets/oracle-report.pdf" target="_blank">Download Report</a>
-        <a href="assets/oracle-model.xlsx" target="_blank">Download Excel Model</a>
+        <a href="assets/oracle-model.xlsx" target="_blank">Download Model</a>
       </div>
     </div>
-  </section>
 
-  <section id="models">
-    <h2>Financial Models</h2>
-    <p>
-      My models include three-statement forecasts, DCF valuation, trading comparables,
-      EV/EBITDA analysis, sensitivity tables, and football field valuation.
-    </p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="grid">
-      <div class="small-card">
-        <h3>AI Equity Research App</h3>
-        <p>Stock analysis platform combining financial data, valuation, and AI-generated research insights.</p>
-      </div>
-
-      <div class="small-card">
-        <h3>TechLink</h3>
-        <p>Career support platform for Institute of Science Tokyo students.</p>
-      </div>
-
-      <div class="small-card">
-        <h3>LoreLens</h3>
-        <p>AI travel planning concept based on user personality and travel preferences.</p>
-      </div>
+    <div class="research-card coming-soon">
+      <h3>Next Coverage</h3>
+      <p>Future reports will cover AI, cloud computing, semiconductors, and Japanese industrial companies.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your-email@example.com</p>
-    <p>LinkedIn: <a href="#">Add your LinkedIn link</a></p>
-    <p>GitHub: <a href="#">Add your GitHub link</a></p>
-  </section>
+<section id="models">
+  <h2>Financial Modeling</h2>
+  <div class="grid">
+    <div class="small-card">
+      <h3>Three-Statement Model</h3>
+      <p>Revenue forecast, income statement, balance sheet, and cash flow statement.</p>
+    </div>
+    <div class="small-card">
+      <h3>Valuation</h3>
+      <p>DCF, P/E, EV/EBITDA, sensitivity analysis, and football field valuation.</p>
+    </div>
+    <div class="small-card">
+      <h3>Scenario Analysis</h3>
+      <p>Bull, base, and bear case assumptions linked to valuation outputs.</p>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <p>
-      Disclaimer: The research published on this website is for educational and informational purposes only
-      and does not constitute investment advice.
-    </p>
-    <p>© 2026 Haoyang Zou</p>
-  </footer>
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="small-card">
+      <h3>AI Equity Research Tool</h3>
+      <p>AI-powered stock analysis and valuation platform.</p>
+      <a href="https://zhy337281-lgtm-finlens-app-5qbamn.streamlit.app/" target="_blank">Open Project</a>
+    </div>
+    <div class="small-card">
+      <h3>TechLink</h3>
+      <p>Career support platform concept for Institute of Science Tokyo students.</p>
+    </div>
+    <div class="small-card">
+      <h3>LoreLens</h3>
+      <p>AI travel planning concept based on personality and travel preferences.</p>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="cert-card">
+    <h3>FMVA® Certification</h3>
+    <p>Financial Modeling & Valuation Analyst certification.</p>
+    <a href="assets/fmva-certificate.pdf" target="_blank">View Certificate</a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/haoyang-zou-57249a3a7" target="_blank">Haoyang Zou</a></p>
+  <p>GitHub: <a href="https://github.com/zhy337281-lgtm" target="_blank">zhy337281-lgtm</a></p>
+</section>
+
+<footer>
+  <p>
+    Disclaimer: All research published on this website is prepared independently for educational and
+    informational purposes only and does not constitute investment advice.
+  </p>
+  <p>© 2026 Haoyang Zou</p>
+</footer>
 </body>
 </html>
